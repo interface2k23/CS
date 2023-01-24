@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #000000;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+#hero {
+  background-image: url("../assets/girl.jpg");
+  height: 90vh;
+  background-position: 0%;
+  background-size: cover;
+}

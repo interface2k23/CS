@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../assets/cs.png" />
+    <title>Interface 2k23</title>
+    <link rel="stylesheet" href="tailwind.css" />
+  </head>
+  <body>
+    <nav
+      class="text-light font-sans flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-4 px-6 bg-deep shadow sm:items-baseline w-full"
+    >
+      <div class="mb-2 sm:mb-0">
+        <a
+          href="../index.html"
+          class="text-2xl no-underline text-grey-darkest hover:text-blue-dark"
+          >Interface 2k23</a
+        >
+      </div>
+      <div>
+        <a
+          href="../index.html#event"
+          class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
+          >Events</a
+        >
+        <a
+          href="../index.html#team"
+          class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
+          >Team</a
+        >
+        <a
+          href="../index.html#sponsor"
+          class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
+          >Sponsors</a
+        >
+        <a
+          href="../index.html#footer"
+          class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
+          >Contact Us</a
+        >
+      </div>
+    </nav>
+    <!-- component -->
+    <div class="w-screen h-0.5 bg-light"></div>
+    <section>
+      <div class="bg-black text-white py-8">
+        <div class="container mx-auto flex flex-col md:flex-row">
+          <div class="flex flex-col w-full lg:w-1/3 p-8 -mt-6">
+            <p class="text-light text-3xl uppercase tracking-loose">
+              LAN Gaming
+            </p>
+            <p class="text-3xl my-4 leading-relaxed md:leading-snug">
+              Event Description
+            </p>
+            <p
+              class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+            >
+              Date : 31 Jan 2023
+            </p>
+            <p
+              class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+            >
+              Venue : CS Lab 2
+            </p>
+            <p
+              class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+            >
+              Time : 12:00 PM
+            </p>
+            <!-- <p
+              class="text-xl font-semibold leading-snug text-gray-50 text-opacity-100 mt-4 italic"
+            >
+              This is a fun event in which participants would be given objective
+              questions over bollywood theme. The one who correctly answer
+              maximum questions will win the quiz.
+            </p> -->
+            <p
+              class="text-xl font-bold leading-snug text-gray-50 text-opacity-100 mt-4"
+            >
+              Coordinators
+            </p>
+            <p
+              class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+            >
+              <span class="text-xl font-semibold">Harsh</span>
+              (8595676826)
+            </p>
+            <p
+              class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+            >
+              <span class="text-xl font-semibold">Aseem Parashar </span>
+              (8882627161)
+            </p>
+            <p
+              class="text-xl font-bold leading-snug text-gray-50 text-opacity-100 mt-4"
+            >
+              Rules
+            </p>
+            <p
+              class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+            >
+              (1) You have to use your own internet
+            </p>
+            <p
+              class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+            >
+              (2) You cannot leave your team in between your team is performing
+            </p>
+            <p
+              class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+            >
+              (3) All team members should register individually
+            </p>
+            <p
+              class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+            >
+              (4) Teams of 3-4 people are allowed
+            </p>
+            <p
+              class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+            >
+              (5) No entry fees
+            </p>
+            <p
+              class="text-xl font-bold leading-snug text-light text-opacity-100 mt-4"
+            >
+              Rewards : <span>Exciting cash prizes and certificate</span>
+            </p>
+          </div>
+          <div class="flex flex-col w-full lg:w-2/3 justify-start">
+            <div class="container w-full px-4">
+              <div class="flex flex-wrap justify-center">
+                <div class="w-full lg:w-6/12 px-4">
+                  <div
+                    class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-white"
+                  >
+                    <div class="flex-auto p-5 lg:p-10">
+                      <h4 class="text-2xl mb-4 text-black font-semibold">
+                        Register for Event
+                      </h4>
+                      <form
+                        id="feedbackForm"
+                        action=""
+                        method="post"
+                        name="code"
+                      >
+                        <div class="relative w-full mb-3">
+                          <label
+                            class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                            for="name"
+                            >Name</label
+                          ><input
+                            type="text"
+                            name="names"
+                            id="name"
+                            class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-300 placeholder-black text-gray-800 outline-none focus:bg-gray-400"
+                            style="transition: all 0.15s ease 0s"
+                            required
+                          />
+                        </div>
+                        <div class="relative w-full mb-3">
+                          <label
+                            class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                            for="email"
+                            >Email</label
+                          ><input
+                            type="email"
+                            name="email"
+                            id="email"
+                            class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-300 placeholder-black text-gray-800 outline-none focus:bg-gray-400"
+                            placeholder=" "
+                            style="transition: all 0.15s ease 0s"
+                            required
+                          />
+                        </div>
+                        <div class="relative w-full mb-3">
+                          <label
+                            class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                            for="email"
+                            >Phone</label
+                          ><input
+                            type="tel"
+                            name="phone"
+                            id="phone"
+                            class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-300 placeholder-black text-gray-800 outline-none focus:bg-gray-400"
+                            placeholder=" "
+                            style="transition: all 0.15s ease 0s"
+                            required
+                          />
+                        </div>
+                        <div class="relative w-full mb-3">
+                          <label
+                            class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                            for="email"
+                            >College</label
+                          ><input
+                            type="text"
+                            name="college"
+                            id="college"
+                            class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-300 placeholder-black text-gray-800 outline-none focus:bg-gray-400"
+                            style="transition: all 0.15s ease 0s"
+                            required
+                          />
+                        </div>
+                        <div class="relative w-full mb-3">
+                          <label
+                            class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                            for="dept"
+                            >Department</label
+                          ><input
+                            type="text"
+                            name="dept"
+                            id="dept"
+                            class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-300 placeholder-black text-gray-800 outline-none focus:bg-gray-400"
+                            placeholder=" "
+                            style="transition: all 0.15s ease 0s"
+                            required
+                          />
+                        </div>
+                        <div class="relative w-full mb-3">
+                          <label
+                            class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                            for="year"
+                            >Year</label
+                          ><input
+                            type="number"
+                            max="4"
+                            min="1"
+                            name="year"
+                            id="year"
+                            class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-300 placeholder-black text-gray-800 outline-none focus:bg-gray-400"
+                            placeholder=" "
+                            style="transition: all 0.15s ease 0s"
+                            required
+                          />
+                        </div>
+                        <div class="relative w-full">
+                          <input
+                            id="feedbackBtn"
+                            class="bg-light text-black text-center mx-auto text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                            type="submit"
+                            value="Submit"
+                            style="transition: all 0.15s ease 0s"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzarbrokaaQ9msbDVKw1fyXs0TAc6dj1NPO1TfOnZ8xtcY2hHqyQRuX1XHlvrKYfpD5/exec";
+      const form = document.forms["code"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) =>
+            alert("Thank you! your form is submitted successfully.")
+          )
+          .then(() => {
+            window.location.reload();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
